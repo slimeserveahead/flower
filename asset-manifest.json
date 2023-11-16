@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/flower/static/css/main.3cdd5310.css",
+    "main.js": "/flower/static/js/main.943ade46.js",
+    "static/js/787.6fea53cc.chunk.js": "/flower/static/js/787.6fea53cc.chunk.js",
+    "static/media/background.png": "/flower/static/media/background.7682996fc7107f7d29b2.png",
+    "static/media/Leaves 1.png": "/flower/static/media/Leaves 1.5ab3c61e140fa03f653e.png",
+    "static/media/Grass 1.png": "/flower/static/media/Grass 1.082cf875d7fc6cf663f8.png",
+    "static/media/Grass 4.png": "/flower/static/media/Grass 4.ff64a7e4f78a67bc2c01.png",
+    "static/media/Leaves 3.png": "/flower/static/media/Leaves 3.c5ec1fb5e7a0a61d9848.png",
+    "static/media/Leaves 2.png": "/flower/static/media/Leaves 2.86792c20fe489e549ed7.png",
+    "static/media/Grass 3.png": "/flower/static/media/Grass 3.eba668144ca0355d29ed.png",
+    "static/media/Flower top.png": "/flower/static/media/Flower top.f43dfd25772381bbd11f.png",
+    "static/media/logo.svg": "/flower/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/flower/index.html",
+    "main.3cdd5310.css.map": "/flower/static/css/main.3cdd5310.css.map",
+    "main.943ade46.js.map": "/flower/static/js/main.943ade46.js.map",
+    "787.6fea53cc.chunk.js.map": "/flower/static/js/787.6fea53cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cdd5310.css",
+    "static/js/main.943ade46.js"
+  ]
+}
