@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -17vw;
+  overflow: hidden;
+  font-family: 'Kaushan Script', cursive;
+}
+.buttons {
+  position: absolute;
+  top: 0;
+}
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+.visibilityHidden {
+  visibility: hidden;
+}
+.flower {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.spacer {
+  height: 1080px;
+}
+.middleFlower {
+  position: absolute;
+  bottom: 10vw;
+}
+.middleFlowerContainer {
+  position: relative;
+  width: 157px;
+  height: 650px;
+  transition: height 3s, transform 2s ease-in-out;
+  transform-origin: bottom;
+  transform: rotate(-5deg);
+}
+
+.swing {
+  transform: rotate(5deg);
+}
+
+.middleFlowerStem {
+  position: absolute;
+  left: 72px;
+  width: 8px;
+  height: 67%;
+  top: 76px;
+  flex-shrink: 0;
+  border-radius: 9px 9.25px 0px 0px;
+  background: linear-gradient(180deg, #95EDE6 0%, rgba(149, 237, 230, 0.00) 100%);
+}
+
+.flowerTop {
+  position: absolute;
+  bottom: 271px;
+  z-index: 2;
+  top: 0;
+  transition: 1s;
+  transition-delay: 1.5s;
+  transform-origin: 50% 60%;
+}
+
+.flower1LeafUpper, .flower1LeafLower {
+  position: absolute;
+  right: 76px;
+  transform-origin: 86% 90%;
+  transition: transform 2s;
+}
+
+.flower1LeafUpper {
+  top: 144px;
+  transition-delay: 0.75s;
+}
+.flower1LeafLower {
+  top: 224px;
+  transition-delay: 2s;
+}
+
+.flower1RightUpper, .flower1RightLower {
+  position: absolute;
+  left: 72px;
+  transform-origin: 5% 62%;
+  transition: transform 1.5s;
+}
+
+.flower1RightUpper {
+  top: 107px;
+  transition-delay: 1s;
+}
+
+.flower1RightLower {
+  top: 242px;
+  transition-delay: 1.25s;
+}
+
+
+
+
+/* ----------------------------------------------- LEFT FLOWER -----------------------------------------  */
+
+.leftFlower {
+  position: absolute;
+  bottom: 10vw;
+  left: 42vw;
+}
+
+.leftFlowerContainer {
+  position: relative;
+  width: 157px;
+  height: 600px;
+  transition: height 3s, transform 2s ease-in-out;
+  transform-origin: bottom;
+  transform: rotate(-15deg);
+}
+.swingLeft {
+  transform: rotate(-5deg);
+}
+.leftFlowerStem {
+  position: absolute;
+  left: 72px;
+  width: 8px;
+  height: 67%;
+  top: 76px;
+  flex-shrink: 0;
+  border-radius: 9px 9.25px 0px 0px;
+  background: linear-gradient(180deg, #95EDE6 0%, rgba(149, 237, 230, 0.00) 100%);
+}
+
+.flower2LeafUpper {
+  position: absolute;
+  right: 85px;
+  transform-origin: 100% 90%;
+  transition: transform 2s;
+  top: 174px;
+  transition-delay: 1.25s;
+}
+.flower2RightUpper, .flower2RightLower {
+  position: absolute;
+  left: 78px;
+  transform-origin: 8% 62%;
+  transition: transform 1.5s;
+}
+.flower2RightUpper {
+  top: 107px;
+  transition-delay: 1s;
+}
+.flower2RightLower {
+  top: 242px;
+  transition-delay: 1.25s;
+}
+
+/* ---------------- RIGHT FLOWER -------------------- */
+.rightFlower {
+  position: absolute;
+  bottom: 10vw;
+  right: 45vw;
+}
+.rightFlowerContainer {
+  position: relative;
+  width: 157px;
+  height: 600px;
+  transition: height 3s, transform 2s ease-in-out;
+  transform-origin: bottom;
+  transform: rotate(15deg);
+}
+.swingRight {
+  transform: rotate(25deg);
+}
+.rightFlowerStem {
+  position: absolute;
+  left: 72px;
+  width: 8px;
+  height: 67%;
+  top: 76px;
+  flex-shrink: 0;
+  border-radius: 9px 9.25px 0px 0px;
+  background: linear-gradient(180deg, #95EDE6 0%, rgba(149, 237, 230, 0.00) 100%);
+} 
+.flower3LeafLeft {
+  position: absolute;
+  right: 85px;
+  transform-origin: 100% 78%;
+  transition: transform 2s;
+  top: 200px;
+  transition-delay: 1.25s;
+}
+.flower3LeafRight {
+  position: absolute;
+  left: 78px;
+  transform-origin: -2% 41%;
+  transition: transform 1.5s;
+  top: 256px;
+  transition-delay: 1.75s;
+}
+.flower3LeafMiddle {
+  position: absolute;
+  left: 47px;
+  transform-origin: 48% 62%;
+  transition: transform 1.5s;
+  top: 83px;
+  transition-delay: 1s;
+}
+.hideStem {
+  height: 0;
+}
+.land {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.land img{
+  width: 100%;
+}
+/* LEAEAVESFDASFAFSA */
+.leaves1 {
+  position: absolute;
+  bottom: 10vw;
+  left: 32vw;
+  transform-origin: 83% 106%;
+  transition: transform 1.75s;
+}
+.leaves2 {
+  position: absolute;
+  bottom: 10vw;
+  left: 45vw;
+  transform-origin: 83% 98%;
+  transition: transform 1.5s;
+  transition-delay: 0.75s;
+}
+.leaves3 {
+  position: absolute;
+  bottom: 10vw;
+  right: 40vw;
+  transform-origin: 23% 79%;
+  transition: transform 1.25s;
+  transition-delay: 0.55s;
+}
+.grass1 {
+  position: absolute;
+  bottom: 10vw;
+  left: 22vw;
+  transform-origin: bottom;
+  transition: transform 1s;
+  transition-delay: 1s;
+}
+.grass2 {
+  position: absolute;
+  bottom: 6vw;
+  left: 35vw;
+  transform-origin: bottom;
+  transition-delay: 1.45s;
+  transition: transform 1.25s;
+}
+.grass3 {
+  position: absolute;
+  bottom: 5vw;
+  right: 32vw;
+  transform-origin: bottom;
+  transition: transform 1.5s;
+  transition-delay: 1.25s;
+}
+.grass4 {
+  position: absolute;
+  bottom: 15vw;
+  right: 27vw;
+  transform-origin: bottom;
+  transition: transform 1s;
+  transition-delay: 0.5s;
+}
+.hide {
+  transform: scale(0)
+}
+
+.text {
+  opacity: 0;
+  font-size: 4vw;
+  transition: opacity 0.5s;
+  z-index: -1;
+}
+.showText{
+  opacity: 1;
+}
